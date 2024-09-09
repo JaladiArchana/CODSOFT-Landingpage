@@ -1,0 +1,95 @@
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/background1.jpg);
+}
+
+.title-div{
+    float:right;
+    width: 20%;
+    /*background-color:rgba(172, 170, 170, 0.764);*/
+    /*margin:5% 0% 0% 37%;*/
+    text-align: center;
+    
+    /*border-radius: 20%;*/
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color:red;
+}
+
+.title-div h1{
+    border: 3px solid black;
+}
+.parent-class{
+    float:left;
+    width:100%;
+    margin: 5% 0% 0% 0% ;
+    
+}
+
+.child-class{
+    float:left;
+    width:22%;
+    background-color: transparent;
+    margin: 0% 0% 6% 2%;
+    text-align: center;
+    border: 6px solid aliceblue;
+    font-size: 23px;
+    padding: 7% 0% 7% 0%;
+    color:aliceblue;
+}
+
+.parent-class :hover{
+    border-color: aqua;
+    border-width: 3px;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.child-class p{
+    font-size: small;
+    text-align: center;
+    margin-top:0%;
+}
+.child-class h1{
+    margin-bottom:0% ;
+    color: aliceblue;
+}
+.child-class a{
+    color:black;
+    text-decoration: none;
+}
+
+.bottom-div{
+    float:left;
+    width:90%;
+    border: 3px solid aliceblue;
+    margin: 3% 0% 0% 5%;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: aliceblue;
+}
+.img-div{
+    float: left;
+    width: 100%;
+}
+.img-div img{
+    float: left;
+    width:22%;
+    height:500px;
+    margin: 17% 0% 0% 2%;
+    border: 3px solid black;
+}
+
+img:hover{
+    border-color: black;
+    border-width: 4px;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
